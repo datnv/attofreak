@@ -1,0 +1,277 @@
+/* RESET SETTINGS */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, em, font, img, small, strike, strong, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+body{
+	text-align: center;
+	color: #000000;
+	line-height: 130%;
+}
+html {
+	overflow-y:scroll;
+}
+
+img {
+	vertical-align:top;
+	border:0;
+}
+
+li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#prince_wrap {
+	text-align:center;
+}
+
+#content {
+	width:100%;
+	margin:0 auto;
+	background:url(images/background_image_01.gif) top center no-repeat fixed;
+}
+
+#content_inner {
+	width:950px;
+	margin:0 auto;
+}
+
+#main{
+	overflow: hidden;
+}
+
+#main_left{
+	float:left;
+	width:20%;
+	min-height: 2500px;
+	margin-right: 5px;
+}
+#main_right{
+	float:right;
+	text-align: left;
+	width: 710px;
+	padding: 16px 20px 0 20px;
+	background-color: white;
+}
+
+#right_content{
+	border: #384C14 solid 4px;
+	margin-bottom: 2em;
+	padding: 10px;
+}
+#right_content >p{
+	margin: 1em 0px;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+#right_content> p:first-child{
+	margin: 0px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.6em;
+	color: #B40000;
+
+}
+
+#right_content ul{
+	overflow: hidden;
+	margin: -20px 0px 0px -20px;
+}
+
+#right_content ul li{
+	float: left;
+	margin: 10px 0px 0px 20px;
+	width: 30%;
+}
+#right_content ul li.large {
+	width: 682px;
+}
+#right_content ul li img {
+	width: 100%;
+	display: block;
+}
+#right_content ul li p{
+	font-size: 75%;
+}
+
+
+.large >p{
+	margin-top: 5px;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+
+/* SLIDER*/
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+#dot_container{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.dot{
+	background: url(images/slide_btn01.png) no-repeat;
+	cursor:pointer;
+	height: 18px;
+	width: 17px;
+	margin: 0 5px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.dot:hover {
+	opacity: 0.5;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+	0%{opacity: 0.05}
+	10%{opacity: 0.1}
+	20%{opacity: 0.2}
+	40%{opacity: 0.4}
+	60%{opacity: 0.6}
+	80%{opacity: 0.8}
+	100%{opacity: 1}
+
+}
+
+@keyframes fade {
+	0%{opacity: 0.05}
+	10%{opacity: 0.1}
+	20%{opacity: 0.2}
+	40%{opacity: 0.4}
+	60%{opacity: 0.6}
+	80%{opacity: 0.8}
+	100%{opacity: 1}
+}
+
+
+/*END SLIDER*/
+
+#theta{
+	text-align: -webkit-center;
+}
+
+.children_head{
+	font-size: 120%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: solid 3px #000000;
+	border-bottom: solid 3px #000000;
+	margin-bottom: 10px;
+}
+
+.redColor{
+	color:#C33D3D;
+	font-weight: bold;
+}
+
+.blueColor{
+	color: #00B2B2;
+}
+.goldColor{
+	color: #FFD24C;
+}
+
+.greenColor a{
+	color: #384B13;
+}
+
+.headLast{
+	text-align: center;
+	padding: 7px 0;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-bottom: 17px;
+}
+
+.strongText{
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 123%;
+}
+
+.page_top {
+	float: right;
+}
+
+#footer_information{
+	text-align: center;
+}
+
+#footer_information a{
+	margin-right: 2em;
+	font-size: 75%;
+	color: #384B13;
+}
+
+#footer_link{
+	color: #384B14;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 130%;
+	padding: 20px 0 20px 0;
+}
+
+.child_content{
+	font-size: 110%;
+	line-height: 146%;
+	padding-bottom: 26px;
+}
+.publicShare{
+	margin-left: 35px;
+	float: left;
+}
+
+.colorGreen{
+	color: #384B13;
+}
+
